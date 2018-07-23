@@ -155,10 +155,24 @@
     <article id="post-14" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/07/23/14/">运算表</a>
+    </h1>
+  
+
+        
+        <a href="/2018/07/23/14/" class="archive-article-date">
+  	<time datetime="2018-07-23T08:56:07.771Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-23</time>
+</a>
+        
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <hr>
-<h2 id="title"><a href="#title" class="headerlink" title="title"></a>title</h2><p>toc:true<br>tags:运算表<br>(1)<br>def table(hang,lie,fuhao):<br>    for i in range(1,hang+1):<br>        for j in range(1,lie+1):<br>            if j&lt;=i:<br>                if fuhao==’+’:<br>                    print(j,fuhao,i,’=’,j+i,end=’ ‘)<br>                elif fuhao==’-‘:<br>                    print(j,fuhao,i,’=’,j-i,end=’ ‘)<br>                elif fuhao==’<em>‘:<br>                    print(j,fuhao,i,’=’,j</em>i,end=’ ‘)<br>                elif fuhao==’/‘:<br>                    print(j,fuhao,i,’=’,’%.2f’%(j/i),end=’ ‘)<br>        print(‘’)    </p>
+        <p>(1)<br>def table(hang,lie,fuhao):<br>    for i in range(1,hang+1):<br>        for j in range(1,lie+1):<br>            if j&lt;=i:<br>                if fuhao==’+’:<br>                    print(j,fuhao,i,’=’,j+i,end=’ ‘)<br>                elif fuhao==’-‘:<br>                    print(j,fuhao,i,’=’,j-i,end=’ ‘)<br>                elif fuhao==’<em>‘:<br>                    print(j,fuhao,i,’=’,j</em>i,end=’ ‘)<br>                elif fuhao==’/‘:<br>                    print(j,fuhao,i,’=’,’%.2f’%(j/i),end=’ ‘)<br>        print(‘’)    </p>
 <p>(2)<br>def table(hang,lie,fuhao):<br>    if fuhao==’+’:<br>        for i in range(1,hang+1):<br>            for j in range(1,lie+1):<br>                if j&lt;=i:<br>                    print(j,fuhao,i,’=’,j+i,end=’  ‘)<br>            print(‘’)<br>    elif fuhao==’-‘:<br>        for i in range(1,hang+1):<br>            for j in range(1,lie+1):<br>                if j&lt;=i:<br>                    print(i,fuhao,j,’=’,i-j,end=’  ‘)<br>            print(‘’)<br>    elif fuhao==’<em>‘:<br>        for i in range(1,hang+1):<br>            for j in range(1,lie+1):<br>                if j&lt;=i:<br>                    print(j,’x’,i,’=’,j</em>i,end=’  ‘)<br>            print(‘’)<br>    elif fuhao==’/‘:<br>        for i in range(1,hang+1):<br>            for j in range(1,lie+1):<br>                if j&lt;=i:<br>                    print(j,’÷’,i,’=’,’%.2f’%(j/i),end=’  ‘)<br>            print(‘’)<br>    else:<br>        print(‘无此运算’)<br>        exit<br>table(9,9,’-‘)</p>
 
       
@@ -168,6 +182,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">循环</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -346,6 +371,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">循环</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
